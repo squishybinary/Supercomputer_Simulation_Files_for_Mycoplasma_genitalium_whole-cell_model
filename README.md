@@ -1,4 +1,6 @@
-# Supercomputer_Simulation_Files_for_Mycoplasma_genitalium_whole-cell_model
+# Supercomputer Simulation_Files for Mycoplasma genitalium whole-cell model
+UPDATE ON PAPER PUBLICATION / CHANGES TO DATA_BRIS
+
 Bash scripts (*.sh), gene knockout (*_ko.list), and experiment name (*_exp.list) files for producing Mycoplasma genitalium whole-cell model simulations on a SLURM controlled supercomputer cluster.
 
 
