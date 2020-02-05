@@ -55,16 +55,16 @@ echo ${SLURM_ARRAY_JOB_ID}
 # Name of Job
 #SBATCH --job-name=WildTypeSimulation
 # Location of Log Output
-#SBATCH --output=/projects/flex1/jr0904/output/PROJECTFOLDER/WildTypeSimulation/slurm-%A_%a.out
+#SBATCH --output=/projects/flex1/USER/output/PROJECTFOLDER/WildTypeSimulation/slurm-%A_%a.out
 
 #############################################################################################################################################################
 
 ### Declarations
 # WholeCell-master directory on BlueGem that contains analysis files
-Master=/home/jr0904/WholeCell-master/WholeCell-master
+Master=/home/USER/WholeCell-master/WholeCell-master
 
 # Directory to contain simulation output
-OutDir=/projects/flex1/jr0904/output/PROJECTFOLDER/WildTypeSimulation
+OutDir=/projects/flex1/USER/output/PROJECTFOLDER/WildTypeSimulation
 
 # Experimental Variables
 Experiment='WildTypeSimulation'
@@ -115,8 +115,8 @@ fi
 
 # Post End of Analysis in BlueGem								
 # Move pdfs and figs to accessible folders for downloading with FileZilla
-# find /projects/flex1/jr0904/output/PROJECTFOLDER/WildTypeSimulation -type f -iname "*.pdf" -exec mv -t /projects/flex1/jr0904/output/PROJECTFOLDER/WildTypeSimulation/pdfs {} +
-# find /projects/flex1/jr0904/output/PROJECTFOLDER/WildTypeSimulation -type f -iname "*.fig" -exec mv -t /projects/flex1/jr0904/output/PROJECTFOLDER/WildTypeSimulation/figs {} +
+# find /projects/flex1/USER/output/PROJECTFOLDER/WildTypeSimulation -type f -iname "*.pdf" -exec mv -t /projects/flex1/USER/output/PROJECTFOLDER/WildTypeSimulation/pdfs {} +
+# find /projects/flex1/USER/output/PROJECTFOLDER/WildTypeSimulation -type f -iname "*.fig" -exec mv -t /projects/flex1/USER/output/PROJECTFOLDER/WildTypeSimulation/figs {} +
 
 #############################################################################################################################################################
 
